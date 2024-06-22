@@ -44,7 +44,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 app.add_middleware(SessionMiddleware, secret_key="8c87d814d4be0ddc08364247da359a61941957e84f62f3cd0e87eb5d853a4144")
 
 
-DATABASE_URL = "mssql+pyodbc://db_aa8202_tourism_admin:ABCD1234@SQL5113.site4now.net/db_aa8202_tourism?driver=ODBC+Driver+17+for+SQL+Server"
+DATABASE_URL = "mssql+pyodbc://db_aaa248_smart_admin:backend1234@SQL8006.site4now.net/db_aaa248_smart?driver=ODBC+Driver+17+for+SQL+Server"
 engine = create_engine(DATABASE_URL)
 metadata = MetaData()
 
